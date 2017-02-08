@@ -18,6 +18,9 @@ const douban = require('./utils/douban.js')
  */
 const baidu = require('./utils/baidu.js')
 
+var fundebug = require('./libs/fundebug.0.0.3.min.js')
+fundebug.apikey = '119099002d0bf7f245693ff4b164c66a4c57663ac72602245c23b2ce2da20147'
+
 App({
   /**
    * Global shared
