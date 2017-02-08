@@ -23,6 +23,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad () {
+    throw new Error('error 01d');
     const promises = this.data.boards.map(board => {
       return app.douban.find(board.key, 1, 10)
         .then(d => {

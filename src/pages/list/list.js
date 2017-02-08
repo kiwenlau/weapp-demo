@@ -40,6 +40,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad (params) {
+    throw new Error('error 01b');
     this.data.title = params.title || this.data.title
 
     // 类型： in_theaters  coming_soon  us_box
